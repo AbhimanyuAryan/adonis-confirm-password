@@ -22,8 +22,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@adonisjs/auth": "^8.2.3",
+    "@adonisjs/core": "^5.9.0",
     "@adonisjs/mrm-preset": "^5.0.3",
     "@adonisjs/require-ts": "^2.0.13",
+    "@adonisjs/session": "^6.4.0",
     "@types/node": "^18.16.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
@@ -38,6 +41,11 @@
     "np": "^7.7.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@adonisjs/auth": "^8.2.3",
+    "@adonisjs/core": "^5.9.0",
+    "@adonisjs/session": "^6.4.0"
   },
   "mrmConfig": {
     "core": false,
